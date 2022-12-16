@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeItem"
+        android:icon="@drawable/home"
+        android:title="Главная"/>
+    <item
+        android:id="@+id/categoryItem"
+        android:icon="@drawable/category"
+        android:title="Категории"/>
+    <item
+        android:id="@+id/addItem"
+        android:enabled="true"
+        android:icon="@drawable/add"
+        android:title="Добавить"/>
+    <item
+        android:id="@+id/statisticsItem"
+        android:icon="@drawable/pie_chart"
+        android:title="Статистика"/>
+    <item
+        android:id="@+id/profileItem"
+        android:icon="@drawable/user"
+        android:title="Профиль"/>
+</menu>

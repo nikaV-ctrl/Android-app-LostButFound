@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@color/blue_fon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/menuImageView"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/lost"
+            tools:ignore="TouchTargetSizeCheck"
+            android:onClick="startFirstActivity"
+            />
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Lost but Found"
+            android:textColor="@color/coursera"
+            android:textSize="26sp"
+            android:onClick="startFirstActivity"
+            />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/mapImageView"-->
+<!--            android:layout_width="42dp"-->
+<!--            android:layout_height="38dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:contentDescription="@string/app_name"-->
+<!--            android:onClick="startYandexActivity"-->
+<!--            android:src="@drawable/map" />-->
+
+        <ImageView
+            android:id="@+id/searchImageView"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="startSearchPage"
+            android:src="@drawable/search" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/profileImageView"-->
+<!--            android:layout_width="25dp"-->
+<!--            android:layout_height="25dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:contentDescription="@string/app_name"-->
+<!--            android:onClick="startUserPage"-->
+<!--            android:src="@drawable/profile"-->
+<!--            tools:ignore="TouchTargetSizeCheck" />-->
+
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/black"
+        app:itemIconSize="25dp"
+        app:itemIconTint="@color/nav_color"
+        app:itemTextColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="184dp"
+        app:menu="@menu/bottom_navigation_menu" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="59dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"></FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

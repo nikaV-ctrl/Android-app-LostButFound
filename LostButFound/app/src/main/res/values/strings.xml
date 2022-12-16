@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LostButFound</string>
+    <!--    <string name="map_key">${AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo}</string>-->
+    <string name="map_key">${AIzaSyAst85h-HIx-SJy7p0_SghHDlZEDd66hQQ}</string>
+
+    <string name="fio">ФИО</string>
+    <string name="circumstances">Обстоятельства</string>
+    <string name="addStatement">Добавить</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="see_all">Посмотреть всё</string>
+
+</resources>

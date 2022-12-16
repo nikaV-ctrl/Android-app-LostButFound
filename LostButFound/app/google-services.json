@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "968683225218",
+    "firebase_url": "https://lostbutfoundapp-4f0b0-default-rtdb.firebaseio.com",
+    "project_id": "lostbutfoundapp-4f0b0",
+    "storage_bucket": "lostbutfoundapp-4f0b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968683225218:android:cfed51a855f4c4cf37349b",
+        "android_client_info": {
+          "package_name": "com.example.lostbutfound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968683225218-gbj6qdk3ch6f4n6pj2m14p90o5k5iq6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lostbutfound",
+            "certificate_hash": "3151567fba0195a97cd1dfcf8fd37eaa6389de70"
+          }
+        },
+        {
+          "client_id": "968683225218-h0pck25nv38kb1422sh0adgpgl5ue205.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvCnWmNXRFOun-9OMQR8HMph4CGOOdj8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968683225218-h0pck25nv38kb1422sh0adgpgl5ue205.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
